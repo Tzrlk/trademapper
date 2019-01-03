@@ -1,0 +1,10 @@
+name: trademapper
+kind: pipeline
+
+steps:
+
+  - name: build
+    image: rust
+    commands:
+      - cargo build
+
